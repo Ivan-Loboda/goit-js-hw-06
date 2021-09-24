@@ -18,7 +18,7 @@ const res = images.map(item => {
 
 
 
-  return `<li><img src=${item.url} alt=${item.alt}></li>`
+  return `<li><img src=${item.url} alt='${item.alt}'></li>`
 })
 
 // console.log(res)
